@@ -1,0 +1,16 @@
+body {
+  background-color: aqua;
+}
+
+.container {
+  background-color: blue;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+header {
+  background-color: green;
+  width: 100%;
+  margin: auto;
+}
