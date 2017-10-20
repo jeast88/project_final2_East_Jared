@@ -1,16 +1,44 @@
 body {
+  background-image: url(backg.jpg);
   background-color: aqua;
+	
+
 }
 
 .container {
-  background-color: blue;
+  background-color: #00ac9c;
   width: 90%;
-  height: 100%;
+  height: 500px;
   margin: auto;
 }
 
+.img {
+	margin: auto;
+	width: 50%;
+}
+
+h1 {
+	font-family: Snell Roundhand;
+	color: #55300d;
+	font-size: 1.5rem;
+}
+
 header {
-  background-color: green;
+  	background-image: url(header.jpg);
+	background-color: green;
   width: 100%;
   margin: auto;
+}
+
+main {
+	text-align: center;
+	color: #fffdf4;
+	font-family: Helvetica;
+	font-size: .75rem;
+}
+
+article {
+	
+	background-color: brown;
+	margin: auto;
 }
