@@ -10,11 +10,26 @@ body {
   width: 90%;
   height: 500px;
   margin: auto;
+	opacity: 0.9;
 }
 
 .img {
 	margin: auto;
 	width: 50%;
+	display: block;
+}
+
+.img2 {
+	margin: auto;
+	display: block;
+}
+
+p {
+	text-align: center;
+	color: #fffdf4;
+	font-family: Helvetica;
+	font-size: .75rem;
+	padding: 1%;
 }
 
 h1 {
@@ -38,7 +53,5 @@ main {
 }
 
 article {
-	
-	background-color: brown;
 	margin: auto;
 }
