@@ -8,7 +8,7 @@ body {
 .container {
   background-color: #00ac9c;
   width: 90%;
-  height: 560px;
+  height: 100%;
   margin: auto;
 	opacity: 0.9;
 }
@@ -30,6 +30,20 @@ body {
 
 .button:hover {
 	opacity: 0.5;
+}
+
+.dp1 {
+	display: none;
+}
+
+.link {
+	font-family: Helvetica;
+	color: red;
+	text-decoration: none;
+	}
+
+.link:hover{
+	text-decoration: underline;
 }
 
 p {
@@ -72,4 +86,45 @@ footer {
 	width: 100%;
 	
 
+}
+
+/*media Q*/
+
+
+
+@media (min-width:500px){
+	
+	
+	main {
+	text-align: center;
+	color: #fffdf4;
+	width: 50%;	
+	font-family: Helvetica;
+	font-size: .75rem;
+	padding-top: 20px;
+}
+	
+	article {
+	margin: 0 0 0 0;	
+	width: 50%;	
+}
+	
+	.img {
+	padding: 2%;
+	width: 100%;
+	display: block;
+}
+	
+	aside {
+		width: 50%;
+		float: right;
+	}
+	
+	.dp1 {
+		display: block;
+	}
+	
+	.dp2 {
+		display: none;
+	}
 }
