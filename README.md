@@ -16,3 +16,5 @@
 * I reviewed the list of deductions for this projectand in the syllabus.
 
 ## Comments
+
+* I can not figure out why some images will only open if they are placed in the css folder and not the images folder.
