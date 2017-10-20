@@ -8,7 +8,7 @@ body {
 .container {
   background-color: #00ac9c;
   width: 90%;
-  height: 500px;
+  height: 560px;
   margin: auto;
 	opacity: 0.9;
 }
@@ -22,6 +22,14 @@ body {
 .img2 {
 	margin: auto;
 	display: block;
+}
+
+.button {
+	display: block;
+}
+
+.button:hover {
+	opacity: 0.5;
 }
 
 p {
@@ -50,8 +58,18 @@ main {
 	color: #fffdf4;
 	font-family: Helvetica;
 	font-size: .75rem;
+	padding-top: 20px;
 }
 
 article {
 	margin: auto;
+}
+
+footer {
+	background-color: #55300d;
+	color:	#fffdf4;
+	font-family: Snell Roundhand;
+	width: 100%;
+	
+
 }
